@@ -1,0 +1,502 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    width: 1340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 6pc;
+}
+.fase1 {
+    margin-left: 20px;
+    color: rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+}
+ul {
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    position: relative;
+    top: 4px;
+}
+.li1 {
+    cursor: pointer;
+    z-index: 10;
+    transition: 1s;
+}
+.li1:hover {
+    color: rgb(2, 7, 43);
+}
+.fase2 {
+    margin-right: 40px;
+    color: rgb(155, 155, 155);
+    display: flex;
+    gap: 20px;
+}
+.save {
+    font-size: 16px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.save:hover {
+    color: rgb(2, 7, 43);
+}
+.property {
+    color: white;
+    border: 2px solid rgb(76, 187, 181);
+    background-color: rgb(76, 187, 181);
+    transition: 1s;
+}
+.property:hover {
+    background-color: white;
+    color: rgb(76, 187, 181);
+}
+.bill {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 13px;
+    height: fit-content;
+    background-color: rgb(232, 249, 255);
+    color: black;
+}
+.profile {
+    width: 3.2pc;
+    height: 3.2pc;
+    border-radius: 50%;
+}
+/* ______________________________________________ */
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+    margin-top: 6pc;
+}
+.house1 {
+    width: 45pc;
+    height: 34pc;
+}
+h1 {
+    font-size: 72px;
+    margin-bottom: -10px;
+}
+h2 {
+    color: rgb(204, 203, 203);
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 12px;
+}
+.loc {
+    z-index: 2;
+    position: relative;
+    left: 23px;
+    height: 35px;
+}
+input {
+    margin-left: -23px;
+    font-size: 16px;
+    font-weight: 600;
+    text-indent: 50px;
+    height: 45px;
+    width: 30pc;
+    border-radius: 12px;
+    border: 2px solid rgb(241, 238, 238);
+    cursor: pointer;
+}
+.search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.5pc;
+    position: relative;
+    right: 6.1pc;
+    border-radius: 30px;
+    border: 2px solid rgb(76, 187, 181);
+    background-color: rgb(76, 187, 181);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.search-btn:hover {
+    background-color: white;
+    color: rgb(76, 187, 181);
+}
+p {
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+}
+.imgs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.company {
+    height: 25px;
+}
+.company1 {
+    height: 39px;
+}
+/* _____________________________________________________________ */
+.recommendation {
+    height: 64.1pc;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2px;
+    overflow: hidden;
+}
+.visible {
+    overflow: visible;
+    margin-bottom: 27pc;
+}
+.header{
+    margin-top: 10pc;
+}
+.our {
+    position: relative;
+    right: 55px;
+    display: flex;
+    font-size: 23px;
+    color: rgb(76, 187, 181);
+}
+.head {
+    display: flex;
+    align-items: center;
+    gap: 30pc;
+}
+.feature-title {
+    font-size: 36px;
+    margin-bottom: 2pc;
+}
+.option {
+    display: flex;
+    gap: 30px;
+}
+.popular {
+    background-color: rgb(250, 224, 192);
+    color: rgb(247, 83, 7);
+    border: 1px solid rgb(250, 224, 192);
+}
+.new-house {
+    background-color: rgb(242, 250, 173);
+    color: rgb(211, 181, 10);
+    border: 1px solid rgb(242, 250, 173);
+}
+.best-deal {
+    background-color: rgb(193, 241, 227);
+    color: rgb(29, 116, 89);
+    border: 1px solid rgb(193, 241, 227);
+}
+.op {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid rgb(222, 241, 255);
+    background-color: rgb(229, 242, 252);
+    color: rgb(76, 187, 181);
+    cursor: pointer;
+    transition: 1s;
+}
+.op:hover {
+    border: 2px solid rgb(76, 187, 181);
+    background-color: rgb(76, 187, 181);
+    color: rgb(229, 242, 252);
+}
+.house {
+    padding: 20px 20px 0 20px;
+    border: 2px solid rgb(246, 251, 255);
+    background-color: rgba(233, 241, 247, 0.555);
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.houses {
+    border-radius: 25px;
+    width: 21pc;
+    height: 17pc;
+    margin-bottom: -3pc;
+    cursor: pointer;
+    transition: 1s;
+}
+.houses:hover {
+    border-radius: 2px;
+}
+.special {
+    z-index: 10;
+    position: relative;
+    left: 12px;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.titl , .price {
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+.titl {
+    margin-bottom: -12px;
+}
+.seller {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.seller-pic {
+    margin-top: -14px;
+    width: 2.6pc;
+    height: 2.6pc;
+    border-radius: 50%;
+}
+h6 {
+    margin-top: -12px;
+    font-size: 15px;
+}
+
+.see-btn {
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 8px 17px;
+    color: white;
+    border: 2px solid rgb(76, 187, 181);
+    background-color: rgb(76, 187, 181);
+    transition: 1s;
+    cursor: pointer;
+}
+.see-btn:hover {
+    background-color: white;
+    color: rgb(76, 187, 181);
+}
+.less-btn {
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 8px 17px;
+    color: white;
+    border: 2px solid rgb(76, 187, 181);
+    background-color: rgb(76, 187, 181);
+    transition: 1s;
+    cursor: pointer;
+}
+/* _______________________________________________________ */
+.articles {
+    display: flex;
+    gap: 4pc;
+}
+.header1 {
+    margin-top: 15pc;
+    text-align: center;
+}
+.line1 {
+    position: relative;
+    left: 11.5pc;
+    bottom: 10px;
+    width: 35px;
+    height: 1.25px;
+    background-color: rgb(76, 187, 181);
+    font-size: 30px;
+}
+.our1 {
+    font-size: 18px;
+    color: rgb(76, 187, 181);
+}
+.articles-title {
+    font-size: 36px;
+    width: 26pc;
+    color: rgb(2, 7, 43);
+}
+
+.article {
+    height: 10.6pc;
+    display: flex;
+    align-items: center;
+    margin-top: 3pc;
+    margin-bottom: 3pc;
+}
+.seller1 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.det1 {
+    position: relative;
+    color: rgb(2, 7, 43);
+    bottom: 7px;
+}
+.time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 13px;
+    color: rgb(92, 90, 90);
+}
+.article-title {
+    font-size: 22px;
+    width: 22pc;
+    position: relative;
+    bottom: 10px;
+    color: rgb(2, 7, 43);
+}
+.article-pic {
+    border-radius: 20px;
+    margin-right: 20px;
+    height: 10.6pc;
+    width: 16pc;
+    cursor: pointer;
+    transition: 1s;
+}
+.article-pic:hover, .article-pic1:hover {
+    border-radius: 0px;
+}
+
+.article2 {
+    position: relative;
+    top: 2.9pc;
+    width: 35pc;
+}
+.article-title1 {
+    font-size: 22px;
+    position: relative;
+    bottom: 10px;
+    color: rgb(2, 7, 43);
+}
+.article-pic1 {
+    border-radius: 20px;
+    height: 18.8pc;
+    width: 35pc;
+    transition: 1s;
+    cursor: pointer;
+}
+/* ___________________________________________________________________________ */
+.back {
+    margin-top: 9pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80pc;
+    height: 16pc;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+.last {
+    padding-bottom: 10pc;
+}
+.last-title {
+    color: rgb(2, 7, 43);
+    text-align: center;
+    font-size: 36px;
+}
+.mail {
+    z-index: 2;
+    color: rgb(76, 187, 181);
+    position: relative;
+    left: 18px;
+}
+.email {
+    cursor: text;
+    width: 37pc;
+    border-radius: 70px;
+    margin-right: -9.6pc;
+}
+.sub-btn {
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 70px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid rgb(222, 241, 255);
+    background-color: rgb(229, 242, 252);
+    color: rgb(76, 187, 181);
+    cursor: pointer;
+    transition: 1s;
+}
+.sub-btn:hover {
+    border: 2px solid rgb(76, 187, 181);
+    background-color: rgb(76, 187, 181);
+    color: rgb(229, 242, 252);
+}
+/* ________________________________________________________________________ */
+footer {
+    padding-top: 3pc;
+    width: 100%;
+    background-color: rgb(238, 238, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.footer-title {
+    width: 23pc;
+}
+.media-icon {
+    margin-right: 10px;
+    height: 2pc;
+    cursor: pointer;
+}
+.part2 {
+    display: flex;
+}
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+}
+.li-title {
+    color: rgb(8, 8, 65);
+
+    cursor: default;
+}
+.li {
+    font-weight: 100;
+    font-size: 18px;
+    display: flex;
+    color: rgb(121, 121, 121);
+    list-style: none;
+    cursor: pointer;
+}
+.li:hover {
+    color: rgb(8, 8, 65);
+}
+.footer-ul {
+    gap: 20px;
+}
